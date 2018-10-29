@@ -1,14 +1,14 @@
- /*
-              https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
+/*
+https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
               
-              {"baseTemperature": 8.66, "monthlyVariance": [{"year": 1753, "month": 1, "variance": -1.366}, ...]}
-              */
+{"baseTemperature": 8.66, "monthlyVariance": [{"year": 1753, "month": 1, "variance": -1.366}, ...]}
+*/
 
 var url = "https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json";
 
 d3.json(url, function (error, response) {
-  if (error) console.log(error);else
-  {
+  if (error) console.log(error);
+  else {
     var data = response.monthlyVariance;
     var baseTemp = response.baseTemperature;
     var width = 1500;
@@ -91,8 +91,8 @@ d3.json(url, function (error, response) {
         case 3:
           return "rgb(255,60,0)";
         case 4:
-          return "rgb(255,0,0)";}
-
+          return "rgb(255,0,0)";
+      }
     }).
     on("mouseover", function (e) {
       tooltip.transition().
