@@ -10,6 +10,8 @@ This heat map is made with [D3](https://d3js.org/).
 
 This project is part of freeCodeCamps Data Visualization certificate.
 
+***
+
 ## Project Requirements
 * The heat map should have a title with a corresponding id="title".
 * The heat map should have a description with a corresponding id="description".
@@ -29,12 +31,18 @@ This project is part of freeCodeCamps Data Visualization certificate.
 * Moving the mouse over an area shows a tooltip with a corresponding id="tooltip" which displays more information about the area.
 * The tooltip should have a data-year property that corresponds to the data-year of the active area.
 
+***
+
 ## Project Data
 Global temperature:  
 https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
 
+***
+
 ## Final Project
 https://myrmidonut.github.io/fcc_dataviz_heat_map
+
+***
 
 ## Preview Images
 ### Main Screen:
