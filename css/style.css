@@ -5,11 +5,18 @@ html, body {
   background-color: #293133;
 }
 
-#graph {
-  height: 100%;
+main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 1540px;
+}
+
+#graph {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 svg {
